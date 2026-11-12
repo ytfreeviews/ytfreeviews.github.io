@@ -10,144 +10,7 @@
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#2563eb">
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZPMC525FGT"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-ZPMC525FGT');</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7020422718957281" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
-
-<style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f0f2f5;color:#1a1a2e;min-height:100vh;}
-
-.topbar{background:#fff;border-bottom:1px solid #e2e8f0;padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;box-shadow:0 1px 4px rgba(0,0,0,.06);}
-.topbar-left{display:flex;align-items:center;gap:10px;}
-.logo-icon{width:32px;height:32px;background:#2563eb;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:.9rem;font-weight:900;}
-.logo-text{font-size:1rem;font-weight:700;color:#1a1a2e;}
-.logo-text span{color:#2563eb;}
-.topbar-right{display:flex;align-items:center;gap:10px;}
-.tb-tag{background:#eff6ff;color:#2563eb;font-size:.72rem;font-weight:700;padding:4px 11px;border-radius:20px;border:1px solid #bfdbfe;}
-.home-link{color:#64748b;font-size:.82rem;text-decoration:none;font-weight:600;}
-.home-link:hover{color:#2563eb;}
-
-.main-wrap{max-width:1280px;margin:0 auto;padding:20px 16px 60px;}
-.ad-wrap{margin:16px 0;}
-
-/* UPLOAD */
-#uploadSection{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:calc(100vh - 160px);}
-.upload-card{background:#fff;border:2px dashed #cbd5e1;border-radius:16px;padding:60px 48px;text-align:center;cursor:pointer;transition:all .25s;max-width:520px;width:100%;}
-.upload-card:hover,.upload-card.drag{border-color:#2563eb;background:#eff6ff;}
-.up-icon{font-size:3.5rem;margin-bottom:16px;}
-.upload-card h2{font-size:1.35rem;font-weight:800;margin-bottom:8px;color:#0f172a;}
-.upload-card p{font-size:.9rem;color:#64748b;line-height:1.6;margin-bottom:24px;}
-.btn-choose{display:inline-block;background:#2563eb;color:#fff;padding:12px 32px;border-radius:8px;font-size:.95rem;font-weight:700;cursor:pointer;border:none;transition:all .2s;}
-.btn-choose:hover{background:#1d4ed8;}
-#fileInput{display:none;}
-.upload-note{display:flex;gap:18px;margin-top:20px;justify-content:center;flex-wrap:wrap;}
-.upload-note span{font-size:.78rem;color:#94a3b8;}
-
-/* EDITOR */
-#editorSection{display:none;}
-.editor-grid{display:grid;grid-template-columns:1fr 295px;gap:16px;align-items:start;}
-@media(max-width:900px){.editor-grid{grid-template-columns:1fr;}}
-
-/* viewer */
-.viewer-panel{background:#fff;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;}
-.viewer-toolbar{display:flex;align-items:center;gap:6px;padding:10px 14px;border-bottom:1px solid #f1f5f9;background:#fafafa;flex-wrap:wrap;}
-.v-btn{background:#fff;border:1px solid #e2e8f0;color:#374151;padding:6px 13px;border-radius:7px;font-size:.8rem;font-weight:600;cursor:pointer;transition:all .18s;white-space:nowrap;}
-.v-btn:hover{border-color:#2563eb;color:#2563eb;background:#eff6ff;}
-.v-btn:disabled{opacity:.4;cursor:not-allowed;}
-.v-btn.danger:hover{border-color:#ef4444;color:#ef4444;background:#fef2f2;}
-.v-sep{width:1px;height:22px;background:#e2e8f0;flex-shrink:0;}
-.zoom-lbl{font-size:.8rem;font-weight:700;color:#64748b;min-width:42px;text-align:center;}
-.page-lbl{font-size:.8rem;color:#94a3b8;margin-left:auto;font-weight:600;}
-
-.viewer-body{overflow:auto;max-height:calc(100vh - 190px);background:#dde1e7;display:flex;justify-content:center;align-items:flex-start;padding:24px;min-height:400px;}
-.canvas-wrap{position:relative;display:inline-block;flex-shrink:0;box-shadow:0 4px 24px rgba(0,0,0,.18);}
-#pdfCanvas{display:block;background:#fff;}
-#selCanvas{position:absolute;top:0;left:0;cursor:crosshair;}
-
-.viewer-footer{padding:9px 14px;border-top:1px solid #f1f5f9;font-size:.78rem;color:#94a3b8;display:flex;align-items:center;gap:8px;background:#fafafa;}
-.status-dot{width:7px;height:7px;border-radius:50%;background:#22c55e;flex-shrink:0;}
-.status-dot.busy{background:#f59e0b;animation:pulse .8s ease-in-out infinite;}
-.status-dot.info{background:#2563eb;}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
-
-/* sidebar */
-.sidebar{display:flex;flex-direction:column;gap:12px;}
-.s-card{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:18px;}
-.s-card-title{font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.6px;color:#94a3b8;margin-bottom:14px;}
-
-.coord-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px;}
-.coord-box{background:#f8fafc;border:1px solid #e2e8f0;border-radius:7px;padding:8px 10px;}
-.coord-label{font-size:.68rem;color:#94a3b8;font-weight:700;text-transform:uppercase;}
-.coord-val{font-size:.92rem;font-weight:800;color:#1e40af;font-variant-numeric:tabular-nums;margin-top:2px;}
-
-.scope-toggle{display:flex;background:#f1f5f9;border-radius:8px;padding:3px;gap:3px;margin-bottom:12px;}
-.scope-btn{flex:1;padding:8px 6px;font-size:.8rem;font-weight:700;background:transparent;border:none;border-radius:6px;cursor:pointer;color:#64748b;transition:all .18s;text-align:center;}
-.scope-btn.on{background:#fff;color:#1e40af;box-shadow:0 1px 4px rgba(0,0,0,.1);}
-
-.btn-apply{width:100%;padding:12px;background:#2563eb;color:#fff;border:none;border-radius:8px;font-size:.92rem;font-weight:800;cursor:pointer;transition:all .2s;}
-.btn-apply:hover{background:#1d4ed8;transform:translateY(-1px);box-shadow:0 4px 14px rgba(37,99,235,.3);}
-.btn-apply:disabled{opacity:.4;cursor:not-allowed;transform:none;box-shadow:none;}
-
-.btn-download{width:100%;padding:12px;background:#16a34a;color:#fff;border:none;border-radius:8px;font-size:.92rem;font-weight:800;cursor:pointer;transition:all .2s;margin-top:8px;}
-.btn-download:hover{background:#15803d;transform:translateY(-1px);box-shadow:0 4px 14px rgba(22,163,74,.3);}
-.btn-download:disabled{opacity:.4;cursor:not-allowed;transform:none;box-shadow:none;}
-
-.btn-clear-s{width:100%;padding:9px;background:transparent;color:#94a3b8;border:1px solid #e2e8f0;border-radius:8px;font-size:.82rem;font-weight:600;cursor:pointer;transition:all .18s;margin-top:6px;}
-.btn-clear-s:hover{color:#ef4444;border-color:#fca5a5;background:#fef2f2;}
-
-.prog-bar{height:4px;background:#e2e8f0;border-radius:2px;overflow:hidden;margin-top:8px;display:none;}
-.prog-fill{height:100%;background:#2563eb;border-radius:2px;transition:width .3s;width:0%;}
-
-.page-list{display:flex;flex-direction:column;gap:4px;max-height:200px;overflow-y:auto;}
-.page-item{display:flex;align-items:center;gap:8px;padding:7px 9px;border-radius:7px;cursor:pointer;border:1px solid transparent;transition:all .15s;font-size:.82rem;color:#374151;font-weight:600;}
-.page-item:hover{background:#eff6ff;border-color:#bfdbfe;}
-.page-item.cur{background:#eff6ff;border-color:#2563eb;color:#1e40af;}
-.page-num{min-width:20px;color:#94a3b8;font-size:.75rem;}
-.page-cropped{margin-left:auto;font-size:.68rem;color:#16a34a;font-weight:800;}
-.reset-link{display:block;text-align:center;font-size:.8rem;color:#94a3b8;cursor:pointer;padding:8px;border-radius:7px;transition:all .15s;border:1px solid transparent;}
-.reset-link:hover{color:#ef4444;background:#fef2f2;border-color:#fca5a5;}
-
-/* description */
-.desc-wrap{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:32px;margin-top:20px;}
-.desc-badge{display:inline-block;background:#eff6ff;color:#2563eb;font-size:.72rem;font-weight:800;padding:4px 12px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px;border:1px solid #bfdbfe;margin-bottom:14px;}
-.desc-wrap h2{font-size:1.35rem;font-weight:800;color:#0f172a;margin-bottom:12px;}
-.desc-wrap h3{font-size:1rem;font-weight:700;color:#1e293b;margin:20px 0 10px;}
-.desc-wrap p{font-size:.92rem;color:#475569;line-height:1.75;margin-bottom:13px;}
-.steps-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:11px;margin:16px 0;}
-.step-box{background:#f8fafc;border:1px solid #e2e8f0;border-radius:9px;padding:16px;}
-.step-n{font-size:1.7rem;font-weight:900;color:#2563eb;opacity:.2;line-height:1;margin-bottom:8px;}
-.step-box h4{font-size:.85rem;font-weight:700;color:#0f172a;margin-bottom:4px;}
-.step-box p{font-size:.8rem;color:#64748b;margin:0;line-height:1.5;}
-.feat-list{list-style:none;margin:12px 0;}
-.feat-list li{display:flex;gap:9px;align-items:flex-start;margin-bottom:10px;font-size:.88rem;color:#475569;line-height:1.55;}
-.feat-list li .ck{color:#16a34a;flex-shrink:0;margin-top:1px;}
-.feat-list li strong{color:#0f172a;}
-.disc{background:#f8fafc;border:1px solid #e2e8f0;border-radius:9px;padding:15px 18px;margin-top:18px;font-size:.82rem;color:#94a3b8;line-height:1.65;}
-.disc strong{color:#64748b;}
-footer{text-align:center;margin-top:36px;font-size:.78rem;color:#cbd5e1;}
-</style>
-</head>
-<body>
-
-<div class="topbar">
-  <div class="topbar-left">
-    <div class="logo-icon">✂</div>
-    <div class="logo-text">PDF<span>Crop</span></div>
-  </div>
-  <div class="topbar-right">
-    <span class="tb-tag">Free · No Login</span>
-    <a href="https://ytfreeviews.github.io" class="home-link">🏠 YTFreeViews</a>
-  </div>
 </div>
-
-<div class="main-wrap">
-  <div class="ad-wrap">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7020422718957281" data-ad-slot="4272853316" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
-  </div>
 
   <!-- UPLOAD -->
   <div id="uploadSection">
@@ -231,9 +94,7 @@ footer{text-align:center;margin-top:36px;font-size:.78rem;color:#cbd5e1;}
     </div>
 
     <div class="ad-wrap">
-      <ins class="adsbygoogle" style="display:block;text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7020422718957281" data-ad-slot="2751888085"></ins>
-      <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
-    </div>
+      </div>
   </div>
 
   <!-- DESCRIPTION -->
@@ -266,9 +127,7 @@ footer{text-align:center;margin-top:36px;font-size:.78rem;color:#cbd5e1;}
   </div>
 
   <div class="ad-wrap">
-    <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-7020422718957281" data-ad-slot="3405888966"></ins>
-    <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
-  </div>
+    </div>
 </div>
 
 <footer>© 2026 YTFreeViews · Free Online Tools · PDF Crop Tool</footer>
