@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe & Watch</title>
+     <!-- Google Tag Manager & AdSense -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZPMC525FGT"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ZPMC525FGT');
+    </script>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align:center;
+            padding:50px;
+            background:#f5f5f5;
+        }
+        .box{
+            background:white;
+            padding:30px;
+            border-radius:15px;
+            max-width:400px;
+            margin:auto;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+        button{
+            padding:12px 25px;
+            font-size:18px;
+            background:red;
+            color:white;
+            border:none;
+            border-radius:8px;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Subscribe to Watch Video</h2>
+    <p>Please subscribe to our channel, then watch the video.</p>
+
+    <button onclick="openLinks()">
+        Subscribe & Watch
+    </button>
+</div>
+
+<script>
+function openLinks() {
+    // Subscribe first (same tab)
+    window.location.href = "https://www.youtube.com/@user-ds77?sub_confirmation=1";
+
+    // Open video after 3 seconds (same tab)
+    setTimeout(function(){
+        window.location.href = "https://youtu.be/MRRJU07IBDg?si=7BP5oy2bvj-RGcGj"; 
+    }, 3000); 
+} 
+</script> 
+ 
+</body> 
+</html>

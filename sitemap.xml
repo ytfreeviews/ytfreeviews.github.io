@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main Pages -->
+  <url>
+    <loc>https://ytfreeviews.github.io/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ytfreeviews.github.io/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ytfreeviews.github.io/Privacy-Policy.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ytfreeviews.github.io/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ytfreeviews.github.io/disclaimer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ytfreeviews.github.io/Articals.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ytfreeviews.github.io/sitemaps.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- YouTube & Social Media Tools -->
+  <url><loc>https://ytfreeviews.github.io/multi-live.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/youtube-short-preview.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/multi-browser.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/multi-browser2.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/youtube-view-checker.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/youtube-thumbnail.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/youtube-tool.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/Tags.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/instagram.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/instaVelocity.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/tiktok-multi-brower.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/bilibili-multi.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/twitch-browser.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/Kick-browser.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/youtube-sine.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/insta-sine.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/TikTok-seo.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/facebook-multi.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/Fbvolocity.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/Anything-qr.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/youtube-channel-audit.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/website-audit.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/private-message.html</loc></url>
+
+  <!-- PDF, Image & Utility Tools -->
+  <url><loc>https://ytfreeviews.github.io/insta-tool.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/website-booster.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/website-ads1.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/website-ads3.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/website-ads4.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/website-ads5.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/handwriting.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/image-converter.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/text-to-doc.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/zip-converter.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/image-compressor.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/pdf-compress.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/photo-to-pdf.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/pdf-crop.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/pdf-merge.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/video-to-image.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/emi.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/Yt-keyword.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/mp3.html</loc></url>
+  <url><loc>https://ytfreeviews.github.io/multi.html</loc></url>
+
+</urlset>

@@ -1,0 +1,6 @@
+{
+  "name": "YTFreeViews - Free YouTube & Creator Multi-Tools",
+  "description": "Discover free browser-based tools for content creators, YouTube multi-views player, live stream boosters, tags generator, thumbnails, calculators, PDF & media utilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

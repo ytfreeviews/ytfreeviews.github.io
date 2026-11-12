@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viral Tags Generator - Free YouTube & Social Media Tag Tool</title>
+
+    <meta name="description" content="Generate 31+ viral and trending tags for YouTube, Facebook, and Instagram instantly, for ANY niche — gaming, cooking, vlogs, tech, fitness, beauty, travel, education, and more. Free, fast, SEO-optimized tag generator.">
+    <meta name="keywords" content="tags generator, youtube tags, viral tags, trending tags generator, video seo tool, social media tags, free tag generator, keyword tool, cooking tags, vlog tags, tech tags, fitness tags">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://ytfreeviews.github.io//tags-generator" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZPMC525FGT"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ZPMC525FGT');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7020422718957281" crossorigin="anonymous"></script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "@id": "https://ytfreeviews.github.io/Tags.html",
+  "name": "Viral Tags Generator & Semantic Keyword Extraction Studio",
+  "url": "https://ytfreeviews.github.io/tags-generator",
+  "applicationCategory": "SEOApplication",
+  "operatingSystem": "All",
+  "browserRequirements": "Requires an internet browser with local-first client-side computing and dynamic array loop mapping modules.",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "description": "An automated, local-first client-side web application designed to expand video SEO architecture across any content niche. The utility ingests a user-defined seed keyword, auto-detects (or accepts a manual) content category, and programmatically processes highly optimized, non-duplicative semantic metadata variations tuned to that niche, blended with cross-platform universal SEO tags."
+}
+</script>
+
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f3f4f6; }
+        .custom-gradient { background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%); }
+        .tag-pill {
+            display: inline-flex;
+            align-items: center;
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            padding: 6px 14px;
+            border-radius: 50px;
+            margin: 4px;
+            font-size: 14px;
+            color: #374151;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+            transition: all 0.2s;
+        }
+        .ad-container { margin: 25px 0; overflow: hidden; }
+        .tag-pill:hover { border-color: #2563eb; transform: translateY(-1px); }
+        .glass-morphism {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .cat-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #eef2ff;
+            color: #4338ca;
+            border: 1px solid #c7d2fe;
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="min-h-screen text-slate-800">
+
+    <nav class="bg-white border-b border-slate-200 py-4 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 custom-gradient rounded-lg flex items-center justify-center text-white shadow-md">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
+                </div>
+                <h1 class="text-xl font-bold tracking-tight text-slate-900">TagGen Studio</h1>
+            </div>
+            <div class="hidden md:block text-sm font-medium text-slate-500">100% Free SEO Tool • All Niches</div>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-4 py-10">
+        <div class="glass-morphism rounded-3xl p-6 md:p-10 shadow-2xl shadow-indigo-100 mb-12">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-extrabold text-slate-900 mb-2">Viral Tags Generator</h2>
+                <p class="text-slate-500">Works for Gaming, Cooking, Vlogs, Tech, Fitness, Beauty, Travel, Education &amp; more.</p>
+            </div>
+
+            <div class="flex flex-col md:flex-row gap-4 mb-4">
+                <input type="text" id="keywordInput" placeholder="e.g. PUBG Mobile, Butter Chicken, Daily Vlog..." class="flex-1 px-6 py-4 rounded-2xl border-2 border-slate-200 focus:border-indigo-500 focus:outline-none text-lg transition-all shadow-sm">
+                <button onclick="generateTags()" class="custom-gradient text-white px-8 py-4 rounded-2xl font-bold text-lg hover:opacity-90 transition-all shadow-lg active:scale-95">Generate Tags</button>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-start md:items-center gap-3 mb-8">
+                <label for="categorySelect" class="text-sm font-semibold text-slate-600">Category:</label>
+                <select id="categorySelect" class="px-4 py-2 rounded-xl border-2 border-slate-200 focus:border-indigo-500 focus:outline-none text-sm font-medium bg-white">
+                    <option value="auto">Auto-Detect (Recommended)</option>
+                    <option value="gaming">Gaming</option>
+                    <option value="cooking">Cooking / Food</option>
+                    <option value="vlog">Vlog / Lifestyle</option>
+                    <option value="tech">Tech / Reviews</option>
+                    <option value="fitness">Fitness / Health</option>
+                    <option value="beauty">Beauty / Fashion</option>
+                    <option value="travel">Travel</option>
+                    <option value="education">Education / Tutorial</option>
+                    <option value="music">Music</option>
+                    <option value="business">Business / Finance</option>
+                    <option value="general">General / Other</option>
+                </select>
+            </div>
+
+            <div id="resultBox" class="hidden animate-in fade-in duration-500">
+                <div class="flex flex-wrap items-center justify-between gap-3 mb-4 border-b border-slate-100 pb-4">
+                    <div class="flex items-center gap-3">
+                        <span class="font-bold text-slate-700"><span id="tagCount">0</span> Tags Generated</span>
+                        <span id="detectedCatBadge" class="cat-badge"></span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button onclick="copyAll()" class="bg-indigo-600 text-white px-4 py-2 rounded-xl text-sm font-semibold hover:bg-indigo-700 transition-all flex items-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                            Copy All
+                        </button>
+                        <button onclick="clearAll()" class="bg-slate-200 text-slate-700 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-300 transition-all">Clear</button>
+                    </div>
+                </div>
+                <div id="tagsContainer" class="flex flex-wrap justify-center min-h-[100px]"></div>
+            </div>
+        </div>
+
+        <article class="prose max-w-none bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-slate-100 text-slate-600 leading-relaxed">
+            <h2 class="text-3xl font-bold text-slate-900 mb-6">Why You Need a Viral Tags Generator for Video SEO?</h2>
+            <p class="mb-4">In the competitive world of digital content creation, visibility is everything. Whether you are a YouTuber, a Facebook video creator, or an Instagram influencer, getting your content discovered by the right audience requires more than just high-quality video production. You need <strong>Search Engine Optimization (SEO)</strong>. Our Tag Generator now understands <strong>your niche</strong> — gaming, cooking, vlogging, tech, fitness, beauty, travel, education, music, or business — and tailors tags accordingly.</p>
+
+            <h3 class="text-xl font-bold text-slate-800 mt-8 mb-4">How Does Category-Aware Tagging Help?</h3>
+            <p class="mb-4">Generic tags work for one niche but hurt another. A cooking channel doesn't need "gameplay" or "mod apk" tags, just like a gaming channel doesn't need "recipe" or "ingredients." Our tool auto-detects your niche from the keyword you type, or lets you pick it manually, then blends niche-specific modifiers with universal, cross-platform SEO terms for maximum relevant reach.</p>
+
+            <h3 class="text-xl font-bold text-slate-800 mt-8 mb-4">100% Secure and Local Processing</h3>
+            <p class="mb-4">All generation happens inside your browser with a <strong>Local-First Architecture</strong>. No sign-up, no data sent to a server — your content strategy stays private and secure, on desktop or mobile.</p>
+
+            <p class="mt-8 font-semibold text-indigo-600">Start using TagGen Studio today — for any niche, not just gaming.</p>
+        </article>
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 py-10 text-center mt-20">
+        <p class="text-sm">© 2026 TagGen Studio • Professional Video SEO Tools • Local-Side Privacy</p>
+    </footer>
+
+    <script>
+        // Universal tags that make sense for almost any content type
+        const universalModifiers = [
+            "viral", "trending", "2026", "shorts", "tutorial", "how to",
+            "best", "guide", "top 10", "review", "tips", "tips and tricks",
+            "new", "latest", "india", "explained"
+        ];
+
+        // Niche-specific modifier banks
+        const categoryModifiers = {
+            gaming: ["esports", "live", "gameplay", "new update", "mobile", "lite",
+                "pro player", "settings", "download", "apk", "config", "online",
+                "unlocked", "mod", "walkthrough", "funny moments", "highlights"],
+            cooking: ["recipe", "recipe at home", "easy recipe", "street food",
+                "restaurant style", "homemade", "quick recipe", "healthy recipe",
+                "indian recipe", "dessert", "snacks", "cooking tips", "food vlog",
+                "kitchen hacks", "traditional recipe", "5 minute recipe"],
+            vlog: ["daily vlog", "day in my life", "lifestyle", "morning routine",
+                "night routine", "aesthetic", "family vlog", "travel vlog",
+                "college life", "study vlog", "productivity", "real talk",
+                "storytime", "week in my life"],
+            tech: ["unboxing", "review", "specs", "comparison", "vs", "price",
+                "first look", "hands on", "buying guide", "gadgets", "smartphone",
+                "laptop", "setup", "software", "app review"],
+            fitness: ["workout", "home workout", "gym", "weight loss", "diet plan",
+                "abs workout", "full body workout", "yoga", "muscle building",
+                "fat loss", "no equipment", "beginner workout", "fitness motivation"],
+            beauty: ["makeup tutorial", "skincare routine", "get ready with me",
+                "outfit ideas", "hairstyle", "haul", "makeup look", "fashion tips",
+                "beauty hacks", "product review", "styling tips"],
+            travel: ["travel vlog", "budget travel", "travel guide", "places to visit",
+                "solo travel", "trip", "itinerary", "hidden gems", "backpacking",
+                "travel tips", "must visit", "hotel review"],
+            education: ["tutorial", "full course", "explained", "study tips",
+                "exam preparation", "notes", "lecture", "step by step", "for beginners",
+                "crash course", "concept explained", "practice questions"],
+            music: ["cover", "lyrics", "official video", "remix", "unplugged",
+                "live performance", "mashup", "new song", "music video", "beats"],
+            business: ["case study", "strategy", "marketing", "startup", "finance tips",
+                "investing", "passive income", "side hustle", "entrepreneurship",
+                "growth hacks", "business ideas"],
+            general: ["explained", "full video", "part 1", "compilation", "reaction",
+                "behind the scenes", "q&a", "challenge", "experiment"]
+        };
+
+        // Keyword signals used for auto-detecting category from user input
+        const categorySignals = {
+            gaming: ["game", "gaming", "pubg", "bgmi", "free fire", "valorant", "csgo",
+                "minecraft", "fortnite", "esports", "gta", "cod", "mobile legends", "roblox"],
+            cooking: ["recipe", "cook", "cooking", "food", "chicken", "curry", "biryani",
+                "dessert", "cake", "bake", "kitchen", "meal", "dish", "snack"],
+            vlog: ["vlog", "day in my life", "routine", "lifestyle", "diary"],
+            tech: ["phone", "laptop", "tech", "gadget", "review", "unboxing", "software",
+                "app", "pc", "processor", "camera specs"],
+            fitness: ["workout", "gym", "fitness", "yoga", "diet", "weight loss", "abs", "muscle"],
+            beauty: ["makeup", "skincare", "beauty", "fashion", "outfit", "hairstyle", "haul"],
+            travel: ["travel", "trip", "vacation", "tour", "destination", "backpack"],
+            education: ["tutorial", "course", "study", "exam", "learn", "lecture", "class", "concept"],
+            music: ["song", "music", "cover", "lyrics", "beat", "singer", "album"],
+            business: ["business", "finance", "invest", "marketing", "startup", "money", "income"]
+        };
+
+        function detectCategory(input) {
+            const lower = input.toLowerCase();
+            for (const [category, signals] of Object.entries(categorySignals)) {
+                if (signals.some(sig => lower.includes(sig))) {
+                    return category;
+                }
+            }
+            return "general";
+        }
+
+        function generateTags() {
+            const input = document.getElementById('keywordInput').value.trim();
+            const resultBox = document.getElementById('resultBox');
+            const container = document.getElementById('tagsContainer');
+            const tagCount = document.getElementById('tagCount');
+            const catSelect = document.getElementById('categorySelect').value;
+            const badge = document.getElementById('detectedCatBadge');
+
+            if (!input) {
+                alert("Please enter a keyword first!");
+                return;
+            }
+
+            const category = catSelect === "auto" ? detectCategory(input) : catSelect;
+            const nicheMods = categoryModifiers[category] || categoryModifiers.general;
+
+            // Blend: seed keyword + niche-specific modifiers + universal modifiers, deduped, capped at 31
+            const combinedModifiers = [];
+            const seen = new Set();
+            [...nicheMods, ...universalModifiers].forEach(m => {
+                if (!seen.has(m)) { seen.add(m); combinedModifiers.push(m); }
+            });
+
+            const generatedTags = [input];
+            for (let i = 0; i < combinedModifiers.length && generatedTags.length < 31; i++) {
+                generatedTags.push(`${input} ${combinedModifiers[i]}`);
+            }
+
+            // Render Tags
+            container.innerHTML = "";
+            generatedTags.forEach(tag => {
+                const span = document.createElement('span');
+                span.className = "tag-pill";
+                span.innerText = tag;
+                container.appendChild(span);
+            });
+
+            tagCount.innerText = generatedTags.length;
+            badge.innerText = "Category: " + category.charAt(0).toUpperCase() + category.slice(1);
+            resultBox.classList.remove('hidden');
+        }
+
+        function copyAll() {
+            const tags = Array.from(document.querySelectorAll('.tag-pill')).map(t => t.innerText).join(', ');
+            if (!tags) return;
+
+            navigator.clipboard.writeText(tags).then(() => {
+                alert("All tags copied to clipboard!");
+            });
+        }
+
+        function clearAll() {
+            document.getElementById('keywordInput').value = "";
+            document.getElementById('resultBox').classList.add('hidden');
+            document.getElementById('tagsContainer').innerHTML = "";
+        }
+    </script>
+</body>
+</html>

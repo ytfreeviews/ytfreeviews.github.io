@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Website Booster Prime (Auto-Human Mode)</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f8fb; --card: #ffffff; --muted: #6b7280; 
+    --accent: #0f4f7f; --success: #059669; --border: #e5e7eb;
+    --shadow: 0 8px 20px rgba(0,0,0,0.08); --radius: 12px; --gap: 16px; 
+    --primary-blue: #0ea5e9; --danger: #dc2626; --warning: #f59e0b; 
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Inter', system-ui; background: var(--bg); color: #111827; line-height: 1.5; }
+  .wrap { max-width: 1400px; margin: 24px auto; padding: 12px; } 
+  header { margin-bottom: 20px; text-align: center; }
+  h1 { font-size: 30px; margin: 0; color: var(--accent); letter-spacing: -1px; } 
+  .tagline { color: var(--muted); font-size: 15px; margin-top: 6px; }
+  .controls { display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px; }
+  .input-group { display: flex; flex-direction: column; gap: 10px; width: 100%; }
+  @media (min-width: 600px) { .input-group { flex-direction: row; } }
+  .url-input-wrap { flex: 1; display: flex; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border-radius: 10px; }
+  .slot-selector { display: flex; align-items: center; border: 1px solid var(--border); border-right: none; border-radius: 10px 0 0 10px; padding: 0 12px; background: #f0f4f8; font-weight: 600; color: var(--accent); font-size: 14px; white-space: nowrap; }
+  .slot-selector input[type="number"] { width: 50px; padding: 8px 0; border: none; text-align: center; background: transparent; font-size: 16px; font-weight: 600; color: var(--accent); outline: none; }
+  input[type="url"] { flex: 1; padding: 12px 14px; border-radius: 0; border: 1px solid var(--border); border-left: none; background: white; font-size: 16px; outline: none; }
+  .btn { background: var(--primary-blue); color: white; padding: 12px 18px; border-radius: 0 10px 10px 0; border: 0; cursor: pointer; font-weight: 600; transition: background-color 0.2s; white-space: nowrap; }
+  .btn:hover:not(:disabled) { background: #0c8cd8; }
+  .btn.stop { background: var(--danger); border-radius: 10px; display: none; width: 100%; margin-top: 10px;}
+
+  .repeat-control { display: flex; align-items: center; gap: 10px; font-size: 14px; color: var(--muted); background: var(--card); padding: 10px 15px; border-radius: 8px; border: 1px solid var(--border); box-shadow: 0 1px 3px rgba(0,0,0,0.05); flex-wrap: wrap; }
+  .grid-container { display: grid; gap: var(--gap); grid-template-columns: repeat(1, 1fr); }
+  @media (min-width: 600px) { .grid-container { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1024px) { .grid-container { grid-template-columns: repeat(4, 1fr); } }
+  .slot { background: var(--card); border-radius: var(--radius); padding: 10px; box-shadow: var(--shadow); display: flex; flex-direction: column; min-height: 420px; position: relative; overflow: hidden; }
+  .slot-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+  .slot-title { font-weight: 700; font-size: 13px; color: var(--accent); }
+  .iframe-wrap { flex: 1; border-radius: 6px; border: 1px solid var(--border); position: relative; overflow: hidden; background: #fff; }
+  
+  /* --- Human-Like Auto-Scrolling Animation --- */
+  @keyframes humanScrollAction {
+    0% { transform: translateY(0) scale(0.4); }
+    20% { transform: translateY(-10%) scale(0.4); }
+    40% { transform: translateY(-30%) scale(0.4); }
+    50% { transform: translateY(-25%) scale(0.4); } /* Tiny bounce back up */
+    70% { transform: translateY(-60%) scale(0.4); }
+    90% { transform: translateY(-85%) scale(0.4); }
+    100% { transform: translateY(0) scale(0.4); }
+  }
+
+  .scrolling-active iframe {
+    animation: humanScrollAction 25s ease-in-out infinite;
+  }
+
+  iframe { 
+    width: 250%; height: 500%; border: 0; 
+    transform: scale(0.4); transform-origin: 0 0;
+    transition: transform 0.3s ease;
+  }
+  .status { font-size: 11px; color: var(--muted); font-weight: 600; margin-top: 8px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Website Booster Prime</h1>
+      <div class="tagline">Automatic Global Traffic & Human Scrolling System</div>
+    </header>
+
+    <div class="controls">
+        <div class="input-group">
+            <div class="slot-selector">Slots: <input id="numSlots" type="number" value="10" min="1" max="20" /></div>
+            <div class="url-input-wrap">
+                <input id="globalUrl" type="url" placeholder="Paste Target URL here..." required />
+            </div>
+            <button id="globalGo" class="btn">Start All (Auto-Repeat ON)</button>
+        </div>
+        
+        <div class="repeat-control">
+            <label><input type="checkbox" id="repeatMode" checked disabled> Active User Mode (Always Enabled)</label>
+            <label><input type="checkbox" id="autoScrollMode" checked disabled> Human-Like Scroll (Always Enabled)</label>
+            <span>Cycle: <input id="minTime" type="number" value="30" readonly style="width:35px; border:none; background:transparent"> to <input id="maxTime" type="number" value="60" readonly style="width:35px; border:none; background:transparent"> sec</span>
+        </div>
+        <button id="globalStop" class="btn stop">STOP ALL SESSIONS</button>
+    </div>
+
+    <div class="grid-container" id="gridContainer"></div>
+  </div>
+
+<script>; 
+const COMMON_AUTH = "bqctypvz:399xb3kxqv6i";
+const DUMMY_PROXIES = [
+  { ip: "142.111.48.253", port: "7030", country: "US" }, { ip: "31.59.20.176", port: "6754", country: "DE" },
+  { ip: "38.170.176.177", port: "5572", country: "CA" }, { ip: "198.23.239.134", port: "6540", country: "US" },
+  { ip: "45.38.107.97", port: "6014", country: "US" }, { ip: "107.172.163.27", port: "6543", country: "CA" },
+  { ip: "64.137.96.74", port: "6641", country: "US" }, { ip: "216.10.27.159", port: "6837", country: "AU" },
+  { ip: "142.111.67.146", port: "5611", country: "US" }, { ip: "142.147.128.93", port: "6593", country: "CA" },
+  { ip: "142.111.48.254", port: "7031", country: "US" }, { ip: "31.59.20.177", port: "6755", country: "DE" },  
+  { ip: "38.170.176.178", port: "5573", country: "CA" }, { ip: "198.23.239.135", port: "6541", country: "US" }, 
+  { ip: "45.38.107.98", port: "6015", country: "US" }, { ip: "107.172.163.28", port: "6544", country: "CA" }, 
+  { ip: "64.137.96.75", port: "6642", country: "US" }, { ip: "216.10.27.160", port: "6838", country: "AU" }, 
+  { ip: "142.111.67.147", port: "5612", country: "US" }, { ip: "142.147.128.94", port: "6594", country: "CA" }
+];
+
+let currentSlots = [];
+let activeIntervals = [];
+
+function createSlot(index, proxy) {
+    const el = document.createElement('div');
+    el.className = 'slot';
+    el.innerHTML = `
+        <div class="slot-top"><div class="slot-title">SLOT ${index+1} (${proxy.country})</div></div>
+        <div class="iframe-wrap"><iframe id="ifr-${index}" src="about:blank"></iframe></div>
+        <div class="status" id="stat-${index}">Ready</div>
+    `;
+    document.getElementById('gridContainer').appendChild(el);
+    return { 
+        container: el,
+        iframe: el.querySelector('iframe'), 
+        status: el.querySelector('.status'),
+        proxy: proxy
+    };
+}
+
+async function runSession(slot, url) {
+    const uid = Math.floor(Math.random() * 90000000) + 10000000;
+    slot.status.textContent = "Loading Proxy...";
+    slot.iframe.src = url;
+    
+    // Auto-scroll start immediately with load
+    slot.container.classList.add('scrolling-active');
+
+    try {
+        const proxyUrl = `${PROXY_ENDPOINT}?target=${encodeURIComponent(url)}&ip=${slot.proxy.ip}&port=${slot.proxy.port}&auth=${COMMON_AUTH}&uid=${uid}`;
+        const res = await fetch(proxyUrl);
+        if(res.ok) {
+            slot.status.textContent = "Active (Cycle 30-60s Running)";
+        }
+    } catch (e) { slot.status.textContent = "Network Pending..."; }
+}
+
+function startAll() {
+    const url = document.getElementById('globalUrl').value;
+    if(!url) return alert("Please enter a URL first");
+    
+    document.getElementById('globalGo').style.display = 'none';
+    document.getElementById('globalStop').style.display = 'block';
+
+    currentSlots.forEach(slot => {
+        const cycle = () => {
+            runSession(slot, url);
+            // Auto Repeat between 30-60 seconds
+            const delay = (Math.floor(Math.random() * 31) + 30) * 1000; 
+            const timer = setTimeout(cycle, delay);
+            activeIntervals.push(timer);
+        };
+        cycle();
+    });
+}
+
+function stopAll() {
+    activeIntervals.forEach(clearTimeout);
+    activeIntervals = [];
+    currentSlots.forEach(s => {
+        s.container.classList.remove('scrolling-active');
+        s.iframe.src = "about:blank";
+        s.status.textContent = "Stopped";
+    });
+    document.getElementById('globalGo').style.display = 'block';
+    document.getElementById('globalStop').style.display = 'none';
+}
+
+document.getElementById('globalGo').onclick = startAll;
+document.getElementById('globalStop').onclick = stopAll;
+
+// Initial Grid Render
+const initialCount = 10;
+for(let i=0; i<initialCount; i++) currentSlots.push(createSlot(i, DUMMY_PROXIES[i]));
+
+document.getElementById('numSlots').onchange = (e) => {
+    document.getElementById('gridContainer').innerHTML = "";
+    currentSlots = [];
+    for(let i=0; i<e.target.value; i++) currentSlots.push(createSlot(i, DUMMY_PROXIES[i]));
+};
+</script>
+</body>
+</html>
+

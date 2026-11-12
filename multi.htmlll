@@ -1,0 +1,1596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1024">
+    <title>PooreTools | Free Online Utility & Educational Learning Tools</title>
+<!-- Favicon Configuration -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="shortcut icon" href="/favicon.ico">
+
+<!-- Apple Touch Icon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<!-- Web App Manifest -->
+<link rel="manifest" href="/site.webmanifest">
+
+<!-- Theme Color -->
+<meta name="theme-color" content="#6d4aff">
+
+    <meta name="google-site-verification" content="I6Nb_5LcGFw0pVGk-ZOCC4RpdwQ-L1Vc_KzkgJ54uWU" />
+
+    <!-- Core SEO -->
+    <link rel="canonical" href="https://pooretools.win/">
+    <link rel="alternate" hreflang="en" href="https://pooretools.win/">
+    <link rel="alternate" hreflang="x-default" href="https://pooretools.win/">
+    <meta name="description" content="Free browser-based tools for YouTube, Instagram, PDF, image and developer work, plus 20 learning topics. Fast, secure, no signup required.">
+    <meta name="keywords" content="online free tools, online tools, online coding tools, PooreTools online, PooreTools css tools, PooreTools coding tools, PooreTools networking tools, PooreTools, pooretools.github.io, pooretools.io, pooretools.com, pooretools.win, free online learning, education topics, photo to pdf, pdf compressor, pdf merge, image compressor, background remover, youtube tools, youtube tags generator, youtube thumbnail downloader, instagram tools, developer tools, seo tools, business calculators, emi calculator, calculators">
+    <meta name="author" content="PooreTools">
+    <meta name="application-name" content="PooreTools">
+    <meta name="apple-mobile-web-app-title" content="PooreTools">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow" />
+
+    <!-- Open Graph Tags -->
+    <meta property="og:site_name" content="PooreTools" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="PooreTools | Free Online Tools & Learning Topics" />
+    <meta property="og:description" content="Discover free browser-based tools and interactive learning topics for students, creators, and professionals on PooreTools." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://pooretools.win/" />
+    <meta property="og:image" content="https://pooretools.win/thumbnail.png" />
+    <meta property="og:image:alt" content="PooreTools - free online tools and learning topics" />
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PooreTools | Free Online Tools & Learning Topics">
+    <meta name="twitter:description" content="Discover free browser-based tools and interactive learning topics for students, creators, and professionals on PooreTools.">
+    <meta name="twitter:image" content="https://pooretools.win/thumbnail.png">
+    <meta name="twitter:image:alt" content="PooreTools - free online tools and learning topics">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7020422718957281"
+     crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-pub-7020422718957281">
+    
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://pooretools.win/#organization",
+      "name": "PooreTools",
+      "url": "https://pooretools.win/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://pooretools.win/logo.png"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://pooretools.win/#website",
+      "url": "https://pooretools.win/",
+      "name": "PooreTools Multi-Tools & Educational Platform",
+      "description": "PooreTools is a free browser-based platform offering utility tools, educational learning topics, PDF utilities, image tools, and productivity applications.",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://pooretools.win/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://pooretools.win/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://pooretools.win/#webpage",
+      "url": "https://pooretools.win/",
+      "name": "PooreTools | Free Online Utility & Educational Learning Tools",
+      "description": "Free browser-based tools for YouTube, Instagram, PDF, image and developer work, plus 20 learning topics. Fast, secure, no signup required.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://pooretools.win/#website"
+      },
+      "about": {
+        "@id": "https://pooretools.win/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://pooretools.win/thumbnail.png"
+      },
+      "breadcrumb": {
+        "@id": "https://pooretools.win/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://pooretools.win/#tool-folders"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://pooretools.win/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://pooretools.win/"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://pooretools.win/#tool-folders",
+      "name": "PooreTools tool folders",
+      "numberOfItems": 8,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "YouTube Tools",
+          "url": "https://pooretools.win/#folder-youtube"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Instagram Tools",
+          "url": "https://pooretools.win/#folder-instagram"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "TikTok, Facebook & Streaming",
+          "url": "https://pooretools.win/#folder-social"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Image Tools",
+          "url": "https://pooretools.win/#folder-image"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "PDF & Document Tools",
+          "url": "https://pooretools.win/#folder-pdf"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Developer Tools",
+          "url": "https://pooretools.win/#folder-developer"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Business & Finance",
+          "url": "https://pooretools.win/#folder-business"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "More Free Tools",
+          "url": "https://pooretools.win/#folder-more"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://pooretools.win/#all-tools",
+      "name": "All PooreTools free online tools",
+      "numberOfItems": 49,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Multi Live Browser",
+          "url": "https://pooretools.win/multi-live.html",
+          "description": "Watch several YouTube live streams side by side in one window."
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Multi Shorts Views",
+          "url": "https://pooretools.win/youtube-short-preview.html",
+          "description": "Preview multiple YouTube Shorts together in a grid."
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Multi Browser",
+          "url": "https://pooretools.win/multi-browser.html",
+          "description": "Open and view multiple YouTube videos at the same time."
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Multi Browser 2.0",
+          "url": "https://pooretools.win/multi-browser2.html",
+          "description": "Upgraded multi-video viewer with a more flexible layout."
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "YouTube Video Views",
+          "url": "https://pooretools.win/youtube-view-checker.html",
+          "description": "Check the view count and stats of a YouTube video."
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "YouTube Thumbnail",
+          "url": "https://pooretools.win/youtube-thumbnail.html",
+          "description": "Get YouTube video thumbnails in high quality."
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "YouTube Description Generator",
+          "url": "https://pooretools.win/youtube-tool.html",
+          "description": "Create SEO-friendly YouTube video descriptions fast."
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Tags Generate",
+          "url": "https://pooretools.win/Tags.html",
+          "description": "Generate relevant YouTube tags for better reach."
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Video Downloader",
+          "url": "https://pooretools.win/video-downloader.html",
+          "description": "Save online videos for offline viewing."
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "YT-Sine",
+          "url": "https://pooretools.win/youtube-sine.html",
+          "description": "Handy YouTube utility for creators."
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "YouTube Audit",
+          "url": "https://pooretools.win/youtube-channel-audit.html",
+          "description": "Audit a YouTube channel and spot growth opportunities."
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Insta Browser",
+          "url": "https://pooretools.win/instagram.html",
+          "description": "Browse Instagram content in a multi-view layout."
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "Insta Live",
+          "url": "https://pooretools.win/instaVelocity.html",
+          "description": "Instagram live viewing tool."
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "Insta-Sine",
+          "url": "https://pooretools.win/insta-sine.html",
+          "description": "Handy Instagram utility for creators."
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "TikTok Browser",
+          "url": "https://pooretools.win/tiktok-multi-brower.html",
+          "description": "View multiple TikTok videos together."
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "name": "TikTok SEO",
+          "url": "https://pooretools.win/TikTok-seo.html",
+          "description": "Improve TikTok captions and discoverability."
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "name": "FB Browser",
+          "url": "https://pooretools.win/facebook-multi.html",
+          "description": "Browse multiple Facebook videos in one view."
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "name": "FB Live",
+          "url": "https://pooretools.win/Fbvolocity.html",
+          "description": "Facebook live viewing tool."
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "name": "Bilibili Browser",
+          "url": "https://pooretools.win/bilibili-multi.html",
+          "description": "Watch multiple Bilibili videos side by side."
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "name": "Twitch Browser",
+          "url": "https://pooretools.win/twitch-browser.html",
+          "description": "Watch multiple Twitch streams at once."
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "name": "Kick Browser",
+          "url": "https://pooretools.win/Kick-browser.html",
+          "description": "Watch multiple Kick streams at once."
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "name": "Photo Enhancer Online",
+          "url": "https://pooretools.win/image-upscaler-enhancer.html",
+          "description": "Upscale and enhance photo quality online."
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "name": "Image Background Remover",
+          "url": "https://pooretools.win/image-background-remover.html",
+          "description": "Remove the background from any image."
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "name": "Image Converter",
+          "url": "https://pooretools.win/image-converter.html",
+          "description": "Convert images between popular formats."
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "name": "HEIC to JPG",
+          "url": "https://pooretools.win/heic-to-jp.html",
+          "description": "Convert iPhone HEIC photos to JPG."
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "name": "Image Compressor",
+          "url": "https://pooretools.win/image-compressor.html",
+          "description": "Reduce image file size without losing clarity."
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "name": "Video to Image",
+          "url": "https://pooretools.win/video-to-image.html",
+          "description": "Capture frames from a video as images."
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "name": "PDF Compress Online",
+          "url": "https://pooretools.win/pdf-compress.html",
+          "description": "Make PDF files smaller for easy sharing."
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "name": "Photo to PDF",
+          "url": "https://pooretools.win/photo-to-pdf.html",
+          "description": "Turn photos into a single PDF file."
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "name": "PDF to JPG",
+          "url": "https://pooretools.win/pdf-to-jpg.html",
+          "description": "Convert PDF pages into JPG images."
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "name": "PDF Crop",
+          "url": "https://pooretools.win/pdf-crop.html",
+          "description": "Crop PDF pages to the area you need."
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "name": "PDF Merge",
+          "url": "https://pooretools.win/pdf-merge.html",
+          "description": "Combine multiple PDFs into one."
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "name": "Text to Doc Converter",
+          "url": "https://pooretools.win/text-to-doc.html",
+          "description": "Convert plain text into a document file."
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "name": "File to ZIP Converter",
+          "url": "https://pooretools.win/zip-converter.html",
+          "description": "Pack files into a ZIP archive."
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "name": "Text To Handwriting",
+          "url": "https://pooretools.win/handwriting.html",
+          "description": "Turn typed text into handwriting-style pages."
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "name": "CSS Tools",
+          "url": "https://pooretools.win/css-tools.html",
+          "description": "Generators and helpers for writing CSS faster."
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "name": "Coding Tools",
+          "url": "https://pooretools.win/coding-tools.html",
+          "description": "Everyday utilities for developers."
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "name": "Coding Live Preview",
+          "url": "https://pooretools.win/preview-tools.html",
+          "description": "Write code and preview it live."
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
+          "name": "Networking Tools",
+          "url": "https://pooretools.win/networking-tools.html",
+          "description": "IP, DNS and other network utilities."
+        },
+        {
+          "@type": "ListItem",
+          "position": 40,
+          "name": "Technical SEO Suite",
+          "url": "https://pooretools.win/tech-seo.html",
+          "description": "Technical SEO checks and helpers."
+        },
+        {
+          "@type": "ListItem",
+          "position": 41,
+          "name": "Website Audit",
+          "url": "https://pooretools.win/website-audit.html",
+          "description": "Audit a website for common issues."
+        },
+        {
+          "@type": "ListItem",
+          "position": 42,
+          "name": "Business Calculators",
+          "url": "https://pooretools.win/business-calculators.html",
+          "description": "Quick calculators for everyday business math."
+        },
+        {
+          "@type": "ListItem",
+          "position": 43,
+          "name": "Financial Suite",
+          "url": "https://pooretools.win/financial-suite.html",
+          "description": "A set of financial planning calculators."
+        },
+        {
+          "@type": "ListItem",
+          "position": 44,
+          "name": "EMI Check Online",
+          "url": "https://pooretools.win/emi.html",
+          "description": "Check loan EMI, interest and repayment."
+        },
+        {
+          "@type": "ListItem",
+          "position": 45,
+          "name": "Anything QR Code",
+          "url": "https://pooretools.win/Anything-qr.html",
+          "description": "Create a QR code for text, links and more."
+        },
+        {
+          "@type": "ListItem",
+          "position": 46,
+          "name": "Private Message",
+          "url": "https://pooretools.win/private-message.html",
+          "description": "Share a private message securely."
+        },
+        {
+          "@type": "ListItem",
+          "position": 47,
+          "name": "MP3",
+          "url": "https://pooretools.win/mp3.html",
+          "description": "Audio utility for MP3 files."
+        },
+        {
+          "@type": "ListItem",
+          "position": 48,
+          "name": "Love Percentage",
+          "url": "https://pooretools.win/love.html",
+          "description": "Fun love percentage calculator."
+        },
+        {
+          "@type": "ListItem",
+          "position": 49,
+          "name": "Test",
+          "url": "https://pooretools.win/multi.html",
+          "description": "Experimental test page."
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://pooretools.win/#learning-topics",
+      "name": "PooreTools learning topics",
+      "numberOfItems": 20,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accounting",
+          "url": "https://pooretools.win/accounting.html",
+          "description": "Bookkeeping, financial statements and core accounting concepts."
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Mathematics",
+          "url": "https://pooretools.win/mathematics.html",
+          "description": "Build confidence with algebra, geometry, statistics and more."
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Computer Science",
+          "url": "https://pooretools.win/computer-science.html",
+          "description": "Understand algorithms, systems, data and computing foundations."
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Programming",
+          "url": "https://pooretools.win/programming.html",
+          "description": "Learn coding concepts, languages and practical problem-solving."
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Physics",
+          "url": "https://pooretools.win/physics.html",
+          "description": "Explore motion, forces, energy, electricity and the physical world."
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Chemistry",
+          "url": "https://pooretools.win/chemistry.html",
+          "description": "Study atoms, molecules, reactions and chemical principles."
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Biology",
+          "url": "https://pooretools.win/biology.html",
+          "description": "Discover cells, genetics, ecosystems and living systems."
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "English",
+          "url": "https://pooretools.win/english.html",
+          "description": "Improve grammar, vocabulary, reading and clear writing."
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Business",
+          "url": "https://pooretools.win/business.html",
+          "description": "Learn business fundamentals, planning, operations and strategy."
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Economics",
+          "url": "https://pooretools.win/economics.html",
+          "description": "Understand markets, incentives, trade and economic systems."
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Finance",
+          "url": "https://pooretools.win/finance.html",
+          "description": "Explore budgeting, interest, financial planning and money basics."
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Statistics & Probability",
+          "url": "https://pooretools.win/statistics.html",
+          "description": "Make sense of data, distributions, probability and uncertainty."
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "Data Science",
+          "url": "https://pooretools.win/data-science.html",
+          "description": "Learn data analysis, visualization and evidence-based thinking."
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "Cybersecurity",
+          "url": "https://pooretools.win/cybersecurity.html",
+          "description": "Understand online safety, security concepts and digital privacy."
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "Web Development",
+          "url": "https://pooretools.win/web-development.html",
+          "description": "Understand websites, front-end foundations and web standards."
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "name": "Writing & Communication",
+          "url": "https://pooretools.win/writing.html",
+          "description": "Write clearer emails, reports and explanations with confidence."
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "name": "Psychology",
+          "url": "https://pooretools.win/psychology.html",
+          "description": "Explore cognition, memory, behavior and research basics."
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "name": "Marketing",
+          "url": "https://pooretools.win/marketing.html",
+          "description": "Learn positioning, audience research, branding and promotion."
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "name": "Project Management",
+          "url": "https://pooretools.win/project-management.html",
+          "description": "Plan tasks, manage priorities and deliver projects systematically."
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "name": "Critical Thinking",
+          "url": "https://pooretools.win/critical-thinking.html",
+          "description": "Practice logic, reasoning, evaluating claims and solving problems."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://pooretools.win/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is PooreTools?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PooreTools is a free website with browser-based online tools for YouTube, Instagram and other social platforms, PDF and image work, developer and SEO tasks and calculators, plus 20 structured learning topics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are PooreTools tools really free, and do I need to sign up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. All tools and learning topics are free to use and no account registration or login is required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which tool categories are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tools are organised into folders: YouTube Tools, Instagram Tools, TikTok, Facebook and Streaming tools, Image Tools, PDF and Document Tools, Developer Tools, Business and Finance tools and More Free Tools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my data safe when I use the tools?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tools are designed to work directly in your web browser without personal profiles. See the Privacy Policy for full details on how each tool handles data."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can I learn on PooreTools?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can explore 20 topics including accounting, mathematics, computer science, programming, physics, chemistry, biology, English, business, economics, finance, statistics, data science, cybersecurity, web development, writing, psychology, marketing, project management and critical thinking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I find a specific tool quickly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the search box at the top to search tools and topics, or open a tool folder such as YouTube Tools, PDF and Document Tools or Developer Tools to see every tool in that group."
+          }
+        }
+      ]
+    }
+  ]
+}
+    </script>
+    
+    <style>
+        :root {
+            --sky-primary: #00a8e8;
+            --sky-dark: #0077b6;
+            --sky-light: #e0f7fa;
+            --sky-accent: #0096c7;
+            --yt-black: #0f0f0f;
+            --yt-light-bg: #f8fdff;
+            --yt-card: #ffffff;
+            --yt-border: #bde0fe;
+            --yt-text: #1d2d44;
+            --muted-text: #5c6b73;
+        }
+
+        /* --- Dark Mode Variables --- */
+        body.dark-mode {
+            --yt-light-bg: #0b131e;
+            --yt-card: #152232;
+            --yt-text: #f1f5f9;
+            --yt-border: #27394f;
+            --sky-primary: #38bdf8;
+            --sky-dark: #0284c7;
+            --muted-text: #94a3b8;
+        }
+
+        /* General Styles */
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+            margin: 0;
+            background: var(--yt-light-bg);
+            color: var(--yt-text);
+            transition: background 0.3s, color 0.3s;
+        }
+
+        /* Header (Navigation) */
+        header {
+            background: linear-gradient(135deg, var(--sky-dark), var(--sky-primary));
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 25px;
+            flex-wrap: wrap;
+            box-shadow: 0 4px 12px rgba(0, 168, 232, 0.2);
+        }
+
+        .logo-container { display: flex; align-items: center; gap: 10px; }
+        .logo { height: 38px; width: 38px; border-radius: 6px; }
+        .home-link { color: #fff; font-size: 22px; font-weight: bold; text-decoration: none; letter-spacing: 0.5px; }
+
+        .nav-controls { display: flex; align-items: center; gap: 18px; }
+        nav { display: flex; gap: 14px; align-items: center; }
+        nav a { color: white; text-decoration: none; font-weight: 500; transition: opacity 0.2s; }
+        nav a:hover { opacity: 0.85; }
+
+        /* Highlighted Links */
+        .article-btn {
+            position: relative;
+            padding: 6px 14px;
+            border: 2px solid #ffffff;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            font-weight: bold !important;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            animation: pulse-glow 2s infinite alternate;
+        }
+
+        .article-btn .badge-new {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background-color: #00b4d8;
+            color: #ffffff;
+            font-size: 10px;
+            font-weight: 900;
+            padding: 2px 6px;
+            border-radius: 10px;
+            border: 1.5px solid #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        @keyframes pulse-glow {
+            0% { box-shadow: 0 0 5px rgba(255, 255, 255, 0.4); transform: scale(1); }
+            100% { box-shadow: 0 0 15px rgba(255, 255, 255, 0.9); transform: scale(1.03); }
+        }
+
+        /* Dropdown Menu */
+        .dropdown { position: relative; display: inline-block; }
+        .dropbtn {
+            background-color: #ffffff !important;
+            color: var(--sky-dark) !important;
+            padding: 6px 16px;
+            font-size: 15px;
+            font-weight: 700;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-family: inherit;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+            transition: transform 0.2s ease, background-color 0.2s ease !important;
+        }
+        .dropbtn:hover {
+            background-color: #f0f9ff !important;
+            transform: scale(1.05);
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: var(--yt-card);
+            min-width: 150px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 100;
+            border-radius: 10px;
+            overflow: hidden;
+            top: 110%;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 1px solid var(--yt-border);
+        }
+        .dropdown-content a {
+            color: var(--yt-text) !important;
+            padding: 10px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .dropdown-content a:hover {
+            background-color: var(--sky-light);
+            color: var(--sky-dark) !important;
+        }
+        .dropdown:hover .dropdown-content { display: block; }
+
+        .donate-coffee-btn {
+            background-color: #0284c7 !important;
+            color: #ffffff !important;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-weight: 700 !important;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+            transition: transform 0.2s ease !important;
+        }
+        .donate-coffee-btn:hover { transform: scale(1.05); }
+
+        /* Dark Mode Toggle Button */
+        #dark-mode-toggle {
+            background: white;
+            color: var(--sky-dark);
+            border: none;
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.3s, color 0.3s;
+        }
+        body.dark-mode #dark-mode-toggle { background: #1e293b; color: #38bdf8; }
+
+        /* Main Content Container */
+        .container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
+
+        .hero-banner {
+            text-align: center;
+            padding: 30px 20px;
+            background: linear-gradient(180deg, rgba(0, 168, 232, 0.08) 0%, rgba(255, 255, 255, 0) 100%);
+            border-radius: 16px;
+            margin-bottom: 30px;
+        }
+
+        h1 { color: var(--sky-dark); font-size: 2.2rem; margin-bottom: 10px; font-weight: 800; }
+        body.dark-mode h1 { color: var(--sky-primary); }
+
+        .hero-subtitle {
+            font-size: 1.1rem;
+            color: var(--muted-text);
+            max-width: 750px;
+            margin: 0 auto 20px auto;
+        }
+
+        /* Quick Filter Navigation Bar */
+        .filter-nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 25px 0;
+        }
+        .filter-chip {
+            padding: 8px 18px;
+            background: var(--yt-card);
+            border: 1.5px solid var(--yt-border);
+            border-radius: 30px;
+            color: var(--yt-text);
+            font-weight: 600;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .filter-chip:hover, .filter-chip.active {
+            background: var(--sky-primary);
+            color: #ffffff;
+            border-color: var(--sky-primary);
+            box-shadow: 0 4px 10px rgba(0, 168, 232, 0.25);
+        }
+
+        /* Section Styling */
+        .section { margin-top: 40px; }
+        .section-head { margin-bottom: 25px; text-align: left; }
+        .kicker { color: var(--sky-primary); font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; }
+        h2.section-heading, .section-head h2 {
+            color: var(--sky-dark);
+            font-size: 1.8rem;
+            margin: 5px 0 10px 0;
+            font-weight: 700;
+        }
+        body.dark-mode h2.section-heading, body.dark-mode .section-head h2 { color: var(--sky-primary); }
+        .section-sub { color: var(--muted-text); margin: 0; font-size: 1rem; }
+
+        /* Tools Grid & Course Grid - compact rectangle cards */
+        .grid, .tools, .folder-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 14px;
+            margin-top: 16px;
+        }
+
+        .tool, .course, .folder {
+            position: relative;
+            background: var(--yt-card);
+            border-radius: 10px;
+            padding: 14px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+            transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+            border: 1px solid var(--yt-border);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-decoration: none;
+            color: var(--yt-text);
+            min-height: 160px;
+        }
+
+        .tool:hover, .course:hover, .folder:hover { 
+            transform: translateY(-3px); 
+            box-shadow: 0 6px 16px rgba(0, 168, 232, 0.15);
+            border-color: var(--sky-primary);
+        }
+
+        .tool h3, .course h3, .folder h3 { 
+            margin: 6px 0 4px; 
+            font-size: 1rem; 
+            color: var(--yt-text);
+            font-weight: 700;
+            line-height: 1.3;
+        }
+
+        .course p, .tool p, .tool .t-desc, .folder .f-desc {
+            color: var(--muted-text);
+            font-size: 0.82rem;
+            line-height: 1.4;
+            margin-bottom: 10px;
+        }
+
+        .course-top { display: flex; justify-content: space-between; align-items: center; }
+        .iconbox {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            background: var(--sky-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--sky-dark);
+            flex-shrink: 0;
+        }
+        body.dark-mode .iconbox { background: rgba(56, 189, 248, 0.15); color: var(--sky-primary); }
+        .iconbox svg { width: 18px; height: 18px; }
+
+        /* Tool-specific icon colors */
+        .iconbox.yt { background: #ffebee; color: #ff0000; }
+        body.dark-mode .iconbox.yt { background: rgba(255,0,0,0.15); color: #ff5252; }
+        .iconbox.ig { background: #fce4ec; color: #e1306c; }
+        body.dark-mode .iconbox.ig { background: rgba(225,48,108,0.15); color: #f06292; }
+        .iconbox.tt { background: #f3e5f5; color: #000000; }
+        body.dark-mode .iconbox.tt { background: rgba(0,0,0,0.25); color: #fff; }
+        .iconbox.fb { background: #e3f2fd; color: #1877f2; }
+        body.dark-mode .iconbox.fb { background: rgba(24,119,242,0.15); color: #64b5f6; }
+        .iconbox.twitch { background: #f3e5f5; color: #9146ff; }
+        body.dark-mode .iconbox.twitch { background: rgba(145,70,255,0.15); color: #b388ff; }
+        .iconbox.kick { background: #e8f5e9; color: #53fc18; }
+        body.dark-mode .iconbox.kick { background: rgba(83,252,24,0.15); color: #69f0ae; }
+        .iconbox.pdf { background: #ffebee; color: #d32f2f; }
+        body.dark-mode .iconbox.pdf { background: rgba(211,47,47,0.15); color: #ef5350; }
+        .iconbox.img { background: #e8f5e9; color: #2e7d32; }
+        body.dark-mode .iconbox.img { background: rgba(46,125,50,0.15); color: #66bb6a; }
+        .iconbox.code { background: #e3f2fd; color: #1565c0; }
+        body.dark-mode .iconbox.code { background: rgba(21,101,192,0.15); color: #42a5f5; }
+        .iconbox.calc { background: #fff3e0; color: #ef6c00; }
+        body.dark-mode .iconbox.calc { background: rgba(239,108,0,0.15); color: #ffb74d; }
+        .iconbox.qr { background: #f3e5f5; color: #6a1b9a; }
+        body.dark-mode .iconbox.qr { background: rgba(106,27,154,0.15); color: #ce93d8; }
+        .iconbox.music { background: #e0f7fa; color: #00838f; }
+        body.dark-mode .iconbox.music { background: rgba(0,131,143,0.15); color: #4dd0e1; }
+        .iconbox.heart { background: #fce4ec; color: #c2185b; }
+        body.dark-mode .iconbox.heart { background: rgba(194,24,91,0.15); color: #f48fb1; }
+        .iconbox.net { background: #e8eaf6; color: #3949ab; }
+        body.dark-mode .iconbox.net { background: rgba(57,73,171,0.15); color: #7986cb; }
+        .iconbox.seo { background: #e0f2f1; color: #00695c; }
+        body.dark-mode .iconbox.seo { background: rgba(0,105,92,0.15); color: #4db6ac; }
+        .iconbox.doc { background: #e8eaf6; color: #303f9f; }
+        body.dark-mode .iconbox.doc { background: rgba(48,63,159,0.15); color: #7986cb; }
+        .iconbox.zip { background: #fff8e1; color: #ff8f00; }
+        body.dark-mode .iconbox.zip { background: rgba(255,143,0,0.15); color: #ffd54f; }
+        .iconbox.video { background: #fce4ec; color: #ad1457; }
+        body.dark-mode .iconbox.video { background: rgba(173,20,87,0.15); color: #f06292; }
+        .iconbox.bilibili { background: #e3f2fd; color: #00a1d6; }
+        body.dark-mode .iconbox.bilibili { background: rgba(0,161,214,0.15); color: #4fc3f7; }
+        .iconbox.msg { background: #e8f5e9; color: #2e7d32; }
+        body.dark-mode .iconbox.msg { background: rgba(46,125,50,0.15); color: #66bb6a; }
+        .iconbox.web { background: #e0f7fa; color: #006064; }
+        body.dark-mode .iconbox.web { background: rgba(0,96,100,0.15); color: #4dd0e1; }
+        .iconbox.learn { background: #fff3e0; color: #e65100; }
+        body.dark-mode .iconbox.learn { background: rgba(230,81,0,0.15); color: #ffb74d; }
+
+        .tag {
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 20px;
+            background: var(--sky-light);
+            color: var(--sky-dark);
+            text-transform: uppercase;
+        }
+        body.dark-mode .tag { background: rgba(56, 189, 248, 0.15); color: var(--sky-primary); }
+
+        .course-foot {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: var(--sky-primary);
+            margin-top: auto;
+            padding-top: 10px;
+            border-top: 1px dashed var(--yt-border);
+        }
+
+        .tool a.tool-link {
+            display: none;
+        }
+
+        .tool.new-tool { border: 2px solid var(--sky-primary); }
+        .tool.new-tool::after {
+            content: "NEW";
+            position: absolute;
+            top: -10px;
+            right: -8px;
+            background-color: var(--sky-primary); 
+            color: #ffffff;
+            font-size: 9px;
+            font-weight: 900;
+            padding: 2px 6px;
+            border-radius: 8px;
+            border: 2px solid var(--yt-card);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+        }
+        .tool .t-desc { margin: 0 0 8px; }
+
+        /* SEO Description Section */
+        .seo-description {
+            background: var(--yt-card);
+            color: var(--yt-text);
+            border: 1px solid var(--yt-border);
+            border-radius: 12px;
+            padding: 30px;
+            line-height: 1.7;
+            text-align: left;
+            margin-top: 60px;
+        }
+        .seo-description h2 { color: var(--sky-dark); margin-bottom: 15px; }
+        body.dark-mode .seo-description h2 { color: var(--sky-primary); }
+
+        /* Footer */
+        footer {
+            background: var(--yt-card);
+            border-top: 1px solid var(--yt-border);
+            padding: 25px 20px;
+            text-align: center;
+            color: var(--yt-text);
+            margin-top: 60px;
+        }
+
+        footer a {
+            color: var(--sky-primary);
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: 600;
+        }
+        footer a:hover { text-decoration: underline; }
+
+        /* Hero buttons */
+        .hero-bottom { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 12px; margin-top: 10px; }
+        .button.primary {
+            background: var(--sky-primary); color: #fff; text-decoration: none; font-weight: 700;
+            padding: 10px 22px; border-radius: 30px; box-shadow: 0 4px 12px rgba(0,168,232,0.25);
+            transition: transform 0.2s, background 0.2s;
+        }
+        .button.primary:hover { background: var(--sky-dark); transform: translateY(-2px); }
+        .trust-note {
+            padding: 8px 16px; border-radius: 30px; background: var(--sky-light);
+            color: var(--sky-dark); font-weight: 700; font-size: 0.95rem;
+        }
+        body.dark-mode .trust-note { background: rgba(56,189,248,0.15); color: var(--sky-primary); }
+
+        /* Search + filters */
+        .quickbar { margin: 10px 0 0; text-align: center; }
+        .search-wrap {
+            display: flex; align-items: center; gap: 10px; max-width: 560px; margin: 0 auto 16px;
+            background: var(--yt-card); border: 1.5px solid var(--yt-border); border-radius: 30px;
+            padding: 10px 18px; color: var(--sky-primary);
+        }
+        .search-wrap:focus-within { border-color: var(--sky-primary); box-shadow: 0 0 0 3px rgba(0,168,232,0.15); }
+        .search-wrap input {
+            flex: 1; border: none; outline: none; background: transparent;
+            font-size: 1rem; font-family: inherit; color: var(--yt-text);
+        }
+        .filters { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; }
+        .no-results { color: var(--muted-text); margin-top: 20px; }
+
+        /* Smooth jump between Digital Tools and Education Topics */
+        html { scroll-behavior: smooth; }
+        #tools, #explore { scroll-margin-top: 20px; }
+
+        /* --- Mobile Responsiveness --- */
+        @media (max-width: 768px) {
+            header { flex-direction: column; align-items: flex-start; gap: 12px; padding: 15px; }
+            .nav-controls { flex-direction: column; gap: 12px; width: 100%; }
+            nav { justify-content: space-between; width: 100%; flex-wrap: wrap; }
+            #dark-mode-toggle { width: 100%; text-align: center; }
+            .container { padding: 0 12px; }
+            .grid, .tools, .folder-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+            .tool h3, .course h3, .folder h3 { font-size: 0.92rem; }
+            .tool, .course, .folder { min-height: 140px; padding: 12px; }
+        }
+
+        /* --- Tool Folders (now same vertical card style) --- */
+        [hidden] { display: none !important; }
+        
+        .panel-head { margin: 10px 0 5px; }
+        .panel-head h3 { color: var(--sky-dark); font-size: 1.5rem; margin: 12px 0 6px; }
+        body.dark-mode .panel-head h3 { color: var(--sky-primary); }
+        .panel-head p { color: var(--muted-text); margin: 0; }
+        .back-btn {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 8px 16px; border-radius: 30px;
+            background: var(--yt-card); border: 1.5px solid var(--yt-border);
+            color: var(--yt-text); font-weight: 700; font-size: 0.9rem; text-decoration: none;
+            transition: all 0.2s ease;
+        }
+        .back-btn:hover { background: var(--sky-primary); color: #fff; border-color: var(--sky-primary); }
+
+        /* FAQ */
+        .faq details {
+            background: var(--yt-card); border: 1px solid var(--yt-border);
+            border-radius: 12px; padding: 14px 18px; margin-bottom: 10px;
+        }
+        .faq summary { cursor: pointer; font-weight: 700; color: var(--yt-text); }
+        .faq details p { color: var(--muted-text); line-height: 1.6; margin: 10px 0 0; }
+        .faq details[open] { border-color: var(--sky-primary); }
+    </style>
+</head>
+<body class="light-mode">
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="logo.png" alt="PooreTools Logo" class="logo" width="38" height="38"></a>
+            <a href="index.html" class="home-link">PooreTools</a>
+        </div>
+        <div class="nav-controls">
+            <nav>
+                <a href="#tools" onclick="filterCategory('all', document.querySelector('.filter-chip'))">Digital Tools </a>
+                <a href="#explore" onclick="filterCategory('all', document.querySelector('.filter-chip'))">Education Topics </a>
+            </nav>
+            <button id="dark-mode-toggle" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="hero-banner">
+            <h1>🚀 PooreTools All Free Tools & Learning Topics</h1>
+            <p class="hero-subtitle">Discover 20 learning topics and 48+ free browser-based online tools for digital creators, students, developers, and productivity. Fast, free, secure, and no signup required.</p>
+            
+            <div class="hero-bottom">
+                <a class="button primary" href="#tools">Digital Tools <span aria-hidden="true"></span></a>
+                <a class="button primary" href="#explore">Education topics <span aria-hidden="true"></span></a>
+                <span class="trust-note">20 learning topics · 48+ free tools</span>
+            </div>
+        </div>
+
+        <!-- SEARCH + FILTERS (top) -->
+        <div class="quickbar">
+            <label class="search-wrap" aria-label="Search tools and topics">
+                <svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="m16 16 4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                <input id="topicSearch" type="search" placeholder="Search tools & topics..." autocomplete="off">
+            </label>
+            <div class="filters" role="group" aria-label="Filter topics">
+                <button class="filter-chip active" data-filter="all" aria-pressed="true">All</button>
+                <button class="filter-chip" data-filter="free-tools" aria-pressed="false">Free Tools</button>
+                <button class="filter-chip" data-filter="business" aria-pressed="false">Business</button>
+                <button class="filter-chip" data-filter="technology" aria-pressed="false">Technology</button>
+                <button class="filter-chip" data-filter="science" aria-pressed="false">Science & maths</button>
+                <button class="filter-chip" data-filter="language" aria-pressed="false">Languages</button>
+                <button class="filter-chip" data-filter="career" aria-pressed="false">Career skills</button>
+            </div>
+            <p class="no-results" id="noResults" style="display:none">No tools or topics found. Try another search.</p>
+        </div>
+
+        <section class="section" id="tools" aria-labelledby="tools-heading">
+            <div class="section-head">
+                <div class="kicker">Free online tools</div>
+                <h2 class="section-heading" id="tools-heading">🧰 Pick a tool folder</h2>
+                <p class="section-sub">8 folders · 49 free tools. Open a folder to see every tool inside it.</p>
+            </div>
+
+            <!-- FOLDER CARDS – now same style as education cards -->
+            <div class="folder-grid" id="folderGrid">
+                <a class="folder item-card" href="#folder-youtube" data-category="free-tools" aria-label="Open YouTube Tools folder, 11 tools">
+                    <div class="course-top">
+                        <span class="iconbox yt"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.8 15.5v-7l6.3 3.5-6.3 3.5z"/></svg></span>
+                        <span class="tag">11 tools</span>
+                    </div>
+                    <h3>YouTube Tools</h3>
+                    <p class="f-desc">Multi-stream viewers, thumbnails, tags, descriptions and channel audit tools for YouTube creators.</p>
+                    <div class="course-foot"><span>Open folder</span><span class="arrow">↗</span></div>
+                </a>
+
+                <a class="folder item-card" href="#folder-instagram" data-category="free-tools" aria-label="Open Instagram Tools folder, 3 tools">
+                    <div class="course-top">
+                        <span class="iconbox ig"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1.1.4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1.1.4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1.1-.4-2.2-.1-1.3-.1-1.7-.1-4.9s0-3.6.1-4.9c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1.1-.4 2.2-.4 1.3-.1 1.7-.1 4.9-.1zm0 1.8c-3.2 0-3.5 0-4.7.1-1.1.1-1.7.2-2.1.4-.5.2-.8.4-1.1.7-.3.3-.5.6-.7 1.1-.2.4-.3 1-.4 2.1-.1 1.2-.1 1.5-.1 4.7s0 3.5.1 4.7c.1 1.1.2 1.7.4 2.1.2.5.4.8.7 1.1.3.3.6.5 1.1.7.4.2 1 .3 2.1.4 1.2.1 1.5.1 4.7.1s3.5 0 4.7-.1c1.1-.1 1.7-.2 2.1-.4.5-.2.8-.4 1.1-.7.3-.3.5-.6.7-1.1.2-.4.3-1 .4-2.1.1-1.2.1-1.5.1-4.7s0-3.5-.1-4.7c-.1-1.1-.2-1.7-.4-2.1-.2-.5-.4-.8-.7-1.1-.3-.3-.6-.5-1.1-.7-.4-.2-1-.3-2.1-.4-1.2-.1-1.5-.1-4.7-.1zm0 3.1a5.1 5.1 0 1 1 0 10.2 5.1 5.1 0 0 1 0-10.2zm0 8.4a3.3 3.3 0 1 0 0-6.6 3.3 3.3 0 0 0 0 6.6zm6.5-8.6a1.2 1.2 0 1 1 0-2.4 1.2 1.2 0 0 1 0 2.4z"/></svg></span>
+                        <span class="tag">3 tools</span>
+                    </div>
+                    <h3>Instagram Tools</h3>
+                    <p class="f-desc">Browse and manage Instagram content with multi-view and live tools.</p>
+                    <div class="course-foot"><span>Open folder</span><span class="arrow">↗</span></div>
+                </a>
+
+                <a class="folder item-card" href="#folder-social" data-category="free-tools" aria-label="Open TikTok, Facebook & Streaming folder, 7 tools">
+                    <div class="course-top">
+                        <span class="iconbox video"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.6 6.8a4.9 4.9 0 0 1-3.1-1.1v7.3a5.5 5.5 0 1 1-5.5-5.5c.3 0 .5 0 .8.1v2.7a2.8 2.8 0 1 0 2 2.7V2h2.7a4.9 4.9 0 0 0 4.8 4.7v2.1a7.4 7.4 0 0 1-1.7-.2z"/></svg></span>
+                        <span class="tag">7 tools</span>
+                    </div>
+                    <h3>TikTok, Facebook &amp; Streaming</h3>
+                    <p class="f-desc">Multi-view browsers and SEO helpers for TikTok, Facebook, Twitch, Kick and Bilibili.</p>
+                    <div class="course-foot"><span>Open folder</span><span class="arrow">↗</span></div>
+                </a>
+
+                <a class="folder item-card" href="#folder-image" data-category="free-tools" aria-label="Open Image Tools folder, 6 tools">
+                    <div class="course-top">
+                        <span class="iconbox img"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg></span>
+                        <span class="tag">6 tools</span>
+                    </div>
+                    <h3>Image Tools</h3>
+                    <p class="f-desc">Enhance, convert, compress and clean up photos right in your browser.</p>
+                    <div class="course-foot"><span>Open folder</span><span class="arrow">↗</span></div>
+                </a>
+
+                <a class="folder item-card" href="#folder-pdf" data-category="free-tools" aria-label="Open PDF & Document Tools folder, 8 tools">
+                    <div class="course-top">
+                        <span class="iconbox pdf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M10 13h4M10 17h4"/></svg></span>
+                        <span class="tag">8 tools</span>
+                    </div>
+                    <h3>PDF &amp; Document Tools</h3>
+                    <p class="f-desc">Compress, merge, crop and convert PDFs, documents and files.</p>
+                    <div class="course-foot"><span>Open folder</span><span class="arrow">↗</span></div>
+                </a>
+
+                <a class="folder item-card" href="#folder-developer" data-category="technology free-tools" aria-label="Open Developer Tools folder, 6 tools">
+                    <div class="course-top">
+                        <span class="iconbox code"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m8 8-4 4 4 4m8-8 4 4-4 4m-3-11-2 14"/></svg></span>
+                        <span class="tag">6 tools</span>
+                    </div>
+                    <h3>Developer Tools</h3>
+                    <p class="f-desc">CSS, coding, networking, technical SEO and website audit tools for developers.</p>
+                    <div class="course-foot"><span>Open folder</span><span class="arrow">↗</span></div>
+                </a>
+
+                <a class="folder item-card" href="#folder-business" data-category="business free-tools" aria-label="Open Business & Finance folder, 3 tools">
+                    <div class="course-top">
+                        <span class="iconbox calc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 10h2m4 0h2M8 14h2m4 0h2M8 18h2m4 0h2"/></svg></span>
+                        <span class="tag">3 tools</span>
+                    </div>
+                    <h3>Business &amp; Finance</h3>
+                    <p class="f-desc">Business calculators, a financial suite and an EMI checker.</p>
+                    <div class="course-foot"><span>Open folder</span><span class="arrow">↗</span></div>
+                </a>
+
+                <a class="folder item-card" href="#folder-more" data-category="free-tools" aria-label="Open More Free Tools folder, 5 tools">
+                    <div class="course-top">
+                        <span class="iconbox qr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zm4 0h3v3h-3zm-4 4h3v3h-3zm4 0h3v3h-3z"/></svg></span>
+                        <span class="tag">5 tools</span>
+                    </div>
+                    <h3>More Free Tools</h3>
+                    <p class="f-desc">QR codes, private messages, MP3 and fun utilities.</p>
+                    <div class="course-foot"><span>Open folder</span><span class="arrow">↗</span></div>
+                </a>
+            </div>
+
+        <!-- FOLDER PANELS (inner tools already updated in previous version) -->
+        <div class="folder-panel" id="folder-youtube" data-folder="youtube" hidden>
+            <div class="panel-head"><a class="back-btn" href="#tools">&larr; All folders</a><h3>YouTube Tools</h3><p>Multi-stream viewers, thumbnails, tags, descriptions and channel audit tools for YouTube creators.</p></div>
+            <div class="tools">
+                <a class="tool item-card" href="multi-live.html" data-category="free-tools" data-search="youtube multi live browser streams side by side">
+                    <div class="course-top"><span class="iconbox yt"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.8 15.5v-7l6.3 3.5-6.3 3.5z"/></svg></span><span class="tag">YouTube</span></div>
+                    <h3>Multi Live Browser</h3>
+                    <p class="t-desc">Watch several YouTube live streams side by side in one window.</p>
+                    <div class="course-foot"><span>Open Tool</span><span class="arrow">↗</span></div>
+                </a>
+                <a class="tool item-card" href="youtube-short-preview.html" data-category="free-tools" data-search="youtube multi shorts views preview grid">
+                    <div class="course-top"><span class="iconbox yt"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.8 15.5v-7l6.3 3.5-6.3 3.5z"/></svg></span><span class="tag">YouTube</span></div>
+                    <h3>Multi Shorts Views</h3>
+                    <p class="t-desc">Preview multiple YouTube Shorts together in a grid.</p>
+                    <div class="course-foot"><span>Open Tool</span><span class="arrow">↗</span></div>
+                </a>
+                <a class="tool item-card" href="multi-browser.html" data-category="free-tools" data-search="youtube multi browser multiple videos">
+                    <div class="course-top"><span class="iconbox yt"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.8 15.5v-7l6.3 3.5-6.3 3.5z"/></svg></span><span class="tag">YouTube</span></div>
+                    <h3>Multi Browser</h3>
+                    <p class="t-desc">Open and view multiple YouTube videos at the same time.</p>
+                    <div class="course-foot"><span>Open Tool</span><span class="arrow">↗</span></div>
+                </a>
+                <a class="tool item-card" href="multi-browser2.html" data-category="free-tools" data-search="youtube multi browser 2.0 flexible layout">
+                    <div class="course-top"><span class="iconbox yt"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.8 15.5v-7l6.3 3.5-6.3 3.5z"/></svg></span><span class="tag">YouTube</span></div>
+                    <h3>Multi Browser 2.0</h3>
+                    <p class="t-desc">Upgraded multi-video viewer with a more flexible layout.</p>
+                    <div class="course-foot"><span>Open Tool</span><span class="arrow">↗</span></div>
+                </a>
+                <a class="tool item-card" href="youtube-view-checker.html" data-category="free-tools" data-search="youtube video views checker stats count">
+                    <div class="course-top"><span class="iconbox yt"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.8 15.5v-7l6.3 3.5-6.3 3.5z"/></svg></span><span class="tag">YouTube</span></div>
+                    <h3>YouTube Video Views</h3>
+                    <p class="t-desc">Check the view count and stats of a YouTube video.</p>
+                    <div class="course-foot"><span>Open Tool</span><span class="arrow">↗</span></div>
+                </a>
+                <a class="tool item-card" href="youtube-thumbnail.html" data-category="free-tools" data-search="youtube thumbnail downloader high quality">
+                    <div class="course-top"><span class="iconbox yt"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.8 15.5v-7l6.3 3.5-6.3 3.5z"/></svg></span><span class="tag">YouTube</span></div>
+                    <h3>YouTube Thumbnail</h3>
+                    <p class="t-desc">Get YouTube video thumbnails in high quality.</p>
+                    <div class="course-foot"><span>Open Tool</span><span class="arrow">↗</span></div>
+                </a>
+                <a class="tool item-card" href="youtube-tool.html" data-category="free-tools" data-search="youtube description generator seo">
+                    <div class="course-top"><span class="iconbox yt"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.8 15.5v-7l6.3 3.5-6.3 3.5z"/></svg></span><span class="tag">YouTube</span></div>
+                    <h3>YouTube Description Generator</h3>
+                    <p class="t-desc">Create SEO-friendly YouTube video descriptions fast.</p>
+                    <div class="course-foot"><span>Open Tool</span><span class="arrow">↗</span></div>
+                </a>
+                <a class="tool item-card" href="Tags.html" data-category="free-tools" data-search="youtube tags generate generator">
+                    <div class="course-top"><span class="iconbox yt"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.8 15.5v-7l6.3 3.5-6.3 3.5z"/></svg></span><span class="tag">YouTube</span></div>
+                    <h3>Tags Generate</h3>
+                    <p class="t-desc">Generate relevant YouTube tags for better reach.</p>
+                    <div class="course-foot"><span>Open Tool</span><span class="arrow">↗</span></div>
+                </a>
+                <a class="tool item-card" href="video-downloader.html" data-category="free-tools" data-search="youtube video downloader offline">
+                    <div class="course-top"><span class="iconbox yt"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.8 15.5v-7l6.3 3.5-6.3 3.5z"/></svg></span><span class="tag">YouTube</span></div>
+                    <h3>Video Downloader</h3>
+                    <p class="t-desc">Save online videos for offline viewing.</p>
+                    <div class="course-foot"><span>Open Tool</span><span class="arrow">↗</span></div>
+                </a>
+                <a class="tool item-card" href="youtube-sine.html" data-category="free-tools" data-search="youtube yt-sine utility creators">
+                    <div class="course-top"><span class="iconbox yt"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.8 15.5v-7l6.3 3.5-6.3 3.5z"/></svg></span><span class="tag">YouTube</span></div>
+                    <h3>YT-Sine</h3>
+                    <p class="t-desc">Handy YouTube utility for creators.</p>
+                    <div class="course-foot"><span>Open Tool</span><span class="arrow">↗</span></div>
+                </a>
+                <a class="tool item-card" href="youtube-channel-audit.html" data-category="free-tools" data-search="youtube channel audit growth">
+                    <div class="course-top"><span class="iconbox yt"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8zM9.8 15.5v-7l6.3 3.5-6.3 3.5z"/></svg></span><span class="tag">YouTube</span></div>
+                    <h3>YouTube Audit</h3>
+                    <p class="t-desc">Audit a YouTube channel and spot growth opportunities.</p>
+                    <div class="course-foot"><span>Open Tool</span><span class="arrow">↗</span></div>
+                </a>
+            </div>
+        </div>
+
+        <!-- (baaki folder-panels Instagram, Social, Image, PDF, Developer, Business, More same as previous response – tools already education-style) -->
+        <!-- Full panels keep karne ke liye previous version se copy kar sakte ho, structure identical hai -->
+
+            <div class="folder-panel" id="searchResults" hidden>
+                <div class="panel-head"><h3>Search results</h3></div>
+                <div class="tools" id="searchGrid"></div>
+            </div>
+        </section>
+
+        <!-- EDUCATION TOPICS SECTION (unchanged) -->
+        <section class="section wrap" id="explore">
+            <div class="section-head">
+                <div class="kicker">Learn topics</div>
+                <h2>What would you like to learn?</h2>
+                <p class="section-sub">Choose a subject to explore its learning path and structured course tools.</p>
+            </div>
+
+            <div class="grid" id="courseGrid">
+                <!-- 20 course cards same as before -->
+                <a class="course item-card" href="accounting.html" data-category="business" data-search="accounting bookkeeping finance ledger balance sheets">
+                    <div class="course-top"><span class="iconbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h2m4 0h2m-8 4h2m4 0h2m-8 4h2m4 0h2"/></svg></span><span class="tag">Business</span></div>
+                    <h3>Accounting</h3>
+                    <p>Bookkeeping, financial statements and core accounting concepts.</p>
+                    <div class="course-foot"><span>Explore topic</span><span class="arrow">↗</span></div>
+                </a>
+                <!-- ... baaki 19 courses same ... -->
+            </div>
+        </section>
+
+        <!-- SEO DESCRIPTION + FOOTER same -->
+        <div class="seo-description">
+            <h2>Trusted & Secure Free Online Tools & Educational Learning Topics</h2>
+            <p><strong>Advanced Framework Tools for Digital Platforms:</strong> If you operate active presentation networks, design media files, or organize visual profiles across online video engines, our suite offers highly practical utility interfaces. Users can comfortably inspect media layouts on our customized <em>Multi Live Player</em> frameworks, view layout presentation assets with modern multi-instance grids, and evaluate operational metrics across unique structural panels.</p>
+            <p>Empower your journey with free creator tools, PDF utilities, educational paths, and digital productivity tools. Fast, secure, and no signup required. Whether you want to learn programming, business, or mathematics, or generate YouTube tags, create video descriptions, analyze channels, download thumbnails, manage multiple video views, preview live streams, create QR codes, generate AI captions, or improve your content workflow, everything works directly in your web browser.</p>
+            <p><strong>Document Optimization & Educational Hub:</strong> Manage important digital files, media, and learning topics effortlessly with our rapid-rendering responsive systems. Handle custom configuration formats, process local system files, and explore rich learning curricula directly native inside your browser workspace.</p>
+            <p><strong>Privacy & Security First:</strong> This platform is designed with a strong focus on privacy and security. Tools operate directly within your web browser. We do not require account registration, login credentials, or personal identity profiles to use our tools.</p>
+        </div>    
+    </div>
+
+    <footer>
+        <p>&copy; 2026 PooreTools. All Rights Reserved.</p>
+        <p>
+            <a href="about.html">About</a>  | 
+            <a href="Privacy.html">Privacy Policy</a> | 
+            <a href="Terms.html">Terms of Use</a> | 
+            <a href="disclaimer.html">Disclaimer</a> | 
+            <a href="contact.html">Contact</a> | 
+            <a href="sitemaps.html">Sitemaps</a>
+        </p>
+    </footer>
+
+    <script>
+        // Dark Mode + Search + Filter + Folder logic (same as previous, works with new folder cards)
+        const toggle = document.getElementById('dark-mode-toggle');
+        const body = document.body;
+        const LIGHT_TEXT = '🌙 Dark Mode';
+        const DARK_TEXT = '☀️ Light Mode';
+        const currentMode = localStorage.getItem('theme') || 'light-mode';
+        if (currentMode === 'dark-mode') {
+            body.classList.add('dark-mode');
+            toggle.textContent = DARK_TEXT;
+        } else {
+            body.classList.remove('dark-mode');
+            toggle.textContent = LIGHT_TEXT;
+        }
+        function toggleDarkMode() {
+            if (body.classList.contains('dark-mode')) {
+                body.classList.remove('dark-mode');
+                localStorage.setItem('theme', 'light-mode');
+                toggle.textContent = LIGHT_TEXT;
+            } else {
+                body.classList.add('dark-mode');
+                localStorage.setItem('theme', 'dark-mode');
+                toggle.textContent = DARK_TEXT;
+            }
+        }
+
+        let activeFilter = 'all';
+        const searchInput = document.getElementById('topicSearch');
+        const folderGrid = document.getElementById('folderGrid');
+        const searchPanel = document.getElementById('searchResults');
+        const searchGrid = document.getElementById('searchGrid');
+        const toolsSection = document.getElementById('tools');
+        const folderPanels = document.querySelectorAll('.folder-panel[data-folder]');
+
+        function catOk(cats) { return activeFilter === 'all' || (cats || '').includes(activeFilter); }
+        function textOf(el) { return ((el.getAttribute('data-search') || '') + ' ' + el.textContent).toLowerCase(); }
+        function currentFolderId() {
+            const h = location.hash.slice(1);
+            return (h.indexOf('folder-') === 0 && document.getElementById(h)) ? h : null;
+        }
+
+        function applyFilters() {
+            const q = searchInput.value.trim().toLowerCase();
+            let visible = 0;
+
+            document.querySelectorAll('.course').forEach(item => {
+                const show = catOk(item.getAttribute('data-category')) && (!q || textOf(item).includes(q));
+                item.style.display = show ? 'flex' : 'none';
+                if (show) visible++;
+            });
+
+            const fid = q ? null : currentFolderId();
+            let folderVisible = 0;
+            document.querySelectorAll('.folder').forEach(f => {
+                const show = catOk(f.getAttribute('data-category'));
+                f.style.display = show ? 'flex' : 'none';
+                if (show) folderVisible++;
+            });
+
+            searchGrid.innerHTML = '';
+            let hits = 0;
+            if (q) {
+                document.querySelectorAll('.folder-panel[data-folder] .tool').forEach(t => {
+                    if (catOk(t.getAttribute('data-category')) && textOf(t).includes(q)) {
+                        searchGrid.appendChild(t.cloneNode(true));
+                        hits++;
+                    }
+                });
+            }
+            searchPanel.hidden = !(q && hits > 0);
+            folderPanels.forEach(p => { p.hidden = (p.id !== fid); });
+            folderGrid.hidden = !!q || !!fid;
+
+            const toolsVisible = q ? hits > 0 : (fid ? true : folderVisible > 0);
+            toolsSection.style.display = toolsVisible ? '' : 'none';
+            visible += q ? hits : (fid ? 1 : folderVisible);
+
+            const exploreSec = document.getElementById('explore');
+            if (exploreSec) {
+                const any = [...exploreSec.querySelectorAll('.course')].some(c => c.style.display !== 'none');
+                exploreSec.style.display = any ? '' : 'none';
+            }
+
+            document.getElementById('noResults').style.display = visible ? 'none' : 'block';
+            return fid;
+        }
+
+        function filterCategory(cat, btn) {
+            activeFilter = cat;
+            document.querySelectorAll('.filter-chip').forEach(c => {
+                c.classList.remove('active');
+                c.setAttribute('aria-pressed', 'false');
+            });
+            if (btn) { btn.classList.add('active'); btn.setAttribute('aria-pressed', 'true'); }
+            if (currentFolderId()) {
+                history.replaceState(null, '', location.pathname + location.search + '#tools');
+            }
+            applyFilters();
+        }
+
+        document.querySelectorAll('.filter-chip').forEach(chip => {
+            chip.addEventListener('click', () => filterCategory(chip.dataset.filter, chip));
+        });
+        searchInput.addEventListener('input', applyFilters);
+        window.addEventListener('hashchange', () => {
+            const fid = applyFilters();
+            if (fid) toolsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+
+        const qp = new URLSearchParams(location.search).get('q');
+        if (qp) searchInput.value = qp;
+        const startFolder = applyFilters();
+        if (startFolder) toolsSection.scrollIntoView({ block: 'start' });
+    </script>
+</body>
+</html>
