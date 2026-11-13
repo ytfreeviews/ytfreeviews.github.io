@@ -666,9 +666,9 @@
     </div>
 
     <article class="document-panel">
-        <h2>About Private Message Cryptographic Infrastructure</h2>
-        <p>The system utilizes the standalone native <strong>Web Crypto API</strong> framework deployed straight within modern engine runtimes to enable elite cryptographic safety protocols. It operates independently of any remote script configurations, structural database dependencies, or remote external software libraries. When plaintext undergoes compilation inside the workspace, an ultra-safe <strong>AES-256-GCM (Advanced Encryption Standard - Galois/Counter Mode)</strong> structural layout wraps your content.</p>
-        <p>Passphrases do not directly serve as processing keys. Instead, the console routes your inputted password string into a <strong>PBKDF2 (Password-Based Key Derivation Function 2)</strong> processing chain. This routine incorporates a dynamically refreshing, completely randomized unique cryptographic <strong>Salt value</strong> along with 600,000 algorithmic cycles of <strong>SHA-256 hashing</strong> to derive a cryptographically hardened key block. Additionally, each independent encryption sequence produces a distinct random <strong>Initialization Vector (IV)</strong>.</p>
+        <h2>About Private Message Encryption</h2>
+        <p>This tool uses your browser's built-in <strong>Web Crypto API</strong> to encrypt and decrypt text directly on your device, with no external server storage or database involved. Each encrypted message is sealed using <strong>AES-256-GCM (Advanced Encryption Standard - Galois/Counter Mode)</strong> so it cannot be read or altered without the right passphrase.</p>
+        <p>Your passphrase itself is never stored or used directly as the encryption key. Instead, the tool derives a key with <strong>PBKDF2 (Password-Based Key Derivation Function 2)</strong> using a freshly generated random <strong>Salt</strong> and 600,000 iterations of <strong>SHA-256</strong> hashing, along with a unique random <strong>Initialization Vector (IV)</strong> for every encryption run.</p>
     </article>
 
     <section class="faq-section">
